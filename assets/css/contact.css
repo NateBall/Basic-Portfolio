@@ -7,6 +7,7 @@ body {
     width: 960px;
 }
 
+/* Top Header Label with Name */
 #NateBall {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
@@ -37,7 +38,7 @@ body {
     
  }
 
- /* Section that holds "About Me", face image, and paragraphs */
+ /* Section that holds "Contact" and "Form" */
 section {
     background-color: white;
     height: 550px;
@@ -57,16 +58,6 @@ h1 {
     position: relative;
     border-spacing: 10px;
     width: 750px;
-}
-
-p {
-    background-color: #ffffff;
-    border-color: #dddddd;
-    width: 800px;
-    line-height: 24px;
-    text-align: left;
-    text-justify: inter-word;
-    padding: 10px;
 }
 
 /* My Face on the Site */
@@ -107,7 +98,6 @@ p {
     color: white;
 }
 
-
 .footer {
     position: fixed;
     left: 0;
@@ -121,16 +111,14 @@ p {
     border-top: 8px solid #4aaaa5
 }
 
-#NB {
-    color:white;
-    background: grey;
-    text-align: center;
-    width:auto;
-}
-
 /* ClearFix */
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
+
+input {
+    width: 85%;
+}
+
